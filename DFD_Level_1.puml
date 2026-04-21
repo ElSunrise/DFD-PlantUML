@@ -1,4 +1,4 @@
-!include https://github.com/ElSunrise/DFD-PlantUML/blob/main/DFD.puml
+!includeurl https://github.com/ElSunrise/DFD-PlantUML/blob/main/DFD.puml
 !$level="DFD Level 1"
 
 !unquoted procedure Process($label)

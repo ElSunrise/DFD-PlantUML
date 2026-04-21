@@ -1,6 +1,5 @@
 # DFD-PlantUML
-
-![DFD Level 1 ](https://www.plantuml.com/plantuml/png/RP7HJiCW58Rl-nILAvOiHTexhpRJBJ7HQB87M5WvkaQW10wRUti1E-DikU6Sy_tdpnzOUHGEWrR5NMyw5IG4fyeZelKFZ3bnhZvwF8P3yE2wmI0OhBf1ixNJmgnFme2_2CCGF38jUiFQRRj_FgazhsnopVRjkwIxNbi5YsBpXU2CK1JuiYJNRcEmnmidVtazuVKDRoQyYVpD3HruJybBJ5EENPoNyUp2uOgzvKl2gtiIJSPPoUTaAKLzgwldT2bDSwjhHbqhKEnmS40bZ_YtZJZLMpMSFLqKwSwlucsIFHaRCE-IaUMvJEmru3-uVnJTvqzSERyD4IK-xvnXCsjDCu0f12FJpowALQo2Ljy0 "DFD Level 1 diagram Simple")
+[ArmanAvanesyan](https://github.com/ArmanAvanesyan/DFD-PlantUML/tree/main)
 
 DFD-PlantUML provides a structured way to visualize **Data Flow Diagrams (DFD)** using [PlantUML](http://en.plantuml.com/). It enables system designers and analysts to create **clear and concise representations of data movement** within a system, aiding in **system analysis, security assessment, and process documentation**. With an intuitive syntax, DFD-PlantUML simplifies the creation of DFDs, ensuring consistency and clarity across **various system design and data processing scenarios**.
 
@@ -77,7 +76,7 @@ Just remember to change the `!include` statements inside the top of the files.
 If you want to use the always up-to-date version in this repo, use the following:
 
 ```
-!includeurl https://raw.githubusercontent.com/ArmanAvanesyan/DFD-PlantUML/main/DFD_Level_1.puml
+!includeurl https://github.com/ElSunrise/DFD-PlantUML/main/DFD_Level_1.puml
 ```
 
 Now let's create a DFD Context(Level 0) diagram:
@@ -86,7 +85,7 @@ After you have included `DFD_Level_1.puml` you can use the defined macro definit
 
 ```
 @startuml DFD_Elements
-!includeurl https://raw.githubusercontent.com/ArmanAvanesyan/test/main/DFD_Lvl_1.puml
+!includeurl https://github.com/ElSunrise/test/main/DFD_Lvl_1.puml
 startDfd(Simple)
 External(e1, "ExternalEntity1")
 External(e2, "ExternalEntity2")
@@ -104,17 +103,17 @@ endDfd()
 @enduml
 ```
 
-![DFD_Elements](https://www.plantuml.com/plantuml/png/RP31JiCm38RlVOgGKoTD3UcHquQwIKWWaFe0LTOOLf6uKU9ixEr9IZV1HY-D_NtzxMOLI7cArXHt0_OcQeZUi3sH2mz2U7MiFWRQnrqCuFiH2P2gVhHYxQt2zK4XX9D2GH18M3MWQBPDztmmdQnSJftYctTTjeDr1XR5vel0ep8bo2NZvsg3DD19yj-ylk5rucz-x264ah-aQMokKf-bfusxCmvEBhcixdaAcNjC_gVbAVLVhvwzHf5gQVHGwhphfKmudxTcF8PoKUJtz3V1PUq9NIIM1JwpgQypUurq1Rj7rN_-hA5llxu8a7YMhYC0TRxSHR5AfsZDDm00 "DFD_Elements")
+
 
 ---
 
 ## Supported Diagram Types
 
 * Context diagram (Data Flow diagram level 0)
-  * Import: `!includeurl https://raw.githubusercontent.com/ArmanAvanesyan/DFD-PlantUML/main/DFD_Level_0.puml`
+  * Import: `!includeurl https://github.com/ElSunrise/DFD-PlantUML/main/DFD_Level_0.puml`
   * Macros: `Process`, `External_Entity`
 * Data Flow diagram level 1
-  * Import: `!includeurl https://raw.githubusercontent.com/ArmanAvanesyan/DFD-PlantUML/main/DFD_Level_1.puml`
+  * Import: `!includeurl https://github.com/ElSunrise/DFD-PlantUML/main/DFD_Level_1.puml`
   * Macros: `External_Entity`, `Process`, `SubProcess`, `DataStore`
 
 ---

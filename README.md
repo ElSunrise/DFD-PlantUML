@@ -85,7 +85,7 @@ After you have included `DFD_Level_1.puml` you can use the defined macro definit
 
 ```
 @startuml DFD_Elements
-!includeurl https://github.com/ElSunrise/test/main/DFD_Lvl_1.puml
+!includeurl https://github.com/ElSunrise/DFD-PlantUML/main/DFD_Level_1.puml
 startDfd(Simple)
 External(e1, "ExternalEntity1")
 External(e2, "ExternalEntity2")
